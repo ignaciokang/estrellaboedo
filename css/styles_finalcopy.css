@@ -1,0 +1,87 @@
+:root {
+	--main: #2b59af;
+	--main-dark: #fe0000;
+	--main-high: #da9a00;
+	--main-light: #4a56d4;
+	--white: whitesmoke;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1c28aa;
+	font-family: 'Roboto', sans-serif;
+}
+
+.bg-pink {
+	background-color: pink;
+}
+
+.bg-peach {
+	background-color: peachpuff;
+}
+
+.bg-lime {
+	background-color: rgb(203, 244, 203);
+}
+
+.carrouselBanner {
+	background: linear-gradient(pink, hotpink);
+	width: 100%;
+	aspect-ratio: 2/1;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	/* */
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.carousel-caption {
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.516);
+	background-color: #00000058;
+}
+
+.carrouselBanner > div {
+	color: whitesmoke;
+	font-size: 2em;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.516);
+	font-weight: 900;
+	text-transform: uppercase;
+	display: none;
+}
+
+.carrouselBanner > img {
+	max-width: 50%;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.carrouselBanner {
+		justify-content: flex-end;
+		align-items: flex-end;
+		padding: 30px;
+	}
+
+	.carrouselBanner > img {
+		max-width: 30%;
+	}
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}

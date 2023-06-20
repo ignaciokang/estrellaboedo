@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Estrella de Boedo</title>
+		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+
+		<!-- icons -->
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+		/>
+
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+
+	<body class="bg-whitesmoke">
+		<header class="bg-azul">
+			<div class="d-flex align-items-center container">
+				<a href="#">
+					<img
+						src="/imagenes/escudos/estrella.png"
+						alt="Logo Estrella de Boedo"
+						id="logo"
+					/>
+				</a>
+				<div
+					class="d-flex flex-column justify-content-center text-white pt-2 d-none d-md-block"
+				>
+					<p class="fs-6 m-0">Club Social y Deportivo</p>
+					<h1 class="fs-4 fw-semibold">Estrella de Boedo</h1>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#miNavBar"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="miNavBar">
+						<div class="navbar-nav">
+							<a class="nav-link text-white" href="#club">El club</a>
+							<a class="nav-link text-white" href="#noticias">Futsal</a>
+							<a class="nav-link text-white" href="#noticias">Handball</a>
+							<a class="nav-link text-white" href="#noticias">Basquet</a>
+							<a class="nav-link text-white" href="#noticias">Patín</a>
+							<div class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle text-white"
+									href="#"
+									id="navbarDropdown"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Tienda
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="#tienda">Futsal</a></li>
+									<li><a class="dropdown-item" href="#tienda">Handball</a></li>
+									<li><a class="dropdown-item" href="#tienda">Basquet</a></li>
+									<li><a class="dropdown-item" href="#tienda">Patin</a></li>
+
+									<li>
+										<hr class="dropdown-divider" />
+									</li>
+									<li>
+										<a class="dropdown-item" href="#tienda">Entrenamiento</a>
+									</li>
+									<li><a class="dropdown-item" href="#tienda">Pelotas</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div
+						class="text-white d-flex align-items-center justify-content-center"
+					>
+						<span class="material-symbols-outlined d-none d-lg-block">
+							sports_soccer
+						</span>
+						<p class="mx-2 d-none d-lg-block">Alquiler de canchas</p>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="bg-rojo d-lg-none fw-semibold text-white text-center p-2">
+			<p class="d-md-none">Estrella de Boedo</p>
+		</div>
+		<main>
+			<section class="container" id="carrousel">
+				<div id="miSlider" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner text-light">
+						<div class="carousel-item active">
+							<div
+								class="carrouselBanner"
+								style="background-image: url('imagenes/slider/01.png')"
+								title="Semifinales copa argentina"
+							></div>
+
+							<div class="carousel-caption">
+								<h3 class="fw-bold">
+									SEMIFINALES COPA ARGENTNA: ESTRELLA VS PINOCHO
+								</h3>
+								<p class="fs-5 d-none d-lg-block">
+									El equipo de Boedo buscará el pase a la final contra el último
+									campeón. ¡Vamos Estrella!
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div
+								class="carrouselBanner"
+								style="background-image: url('imagenes/slider/02.png')"
+								title="Semifinales copa argentina"
+							></div>
+
+							<!-- <div class="carousel-caption d-none d-md-block">
+								<h3 class="fs-4 fw-bold">
+									Handball: ¡A un paso de los playoffs!
+								</h3>
+								<p class="fs-5">
+									Las mayores se encuentran primeras en su grupo a 2 fechas por
+									jugar.
+								</p>
+							</div> -->
+							<div class="carousel-caption">
+								<h3 class="fw-bold">Handball: ¡A un paso de los playoffs!</h3>
+								<p class="fs-5 d-none d-lg-block">
+									Las mayores se encuentran primeras en su grupo a 2 fechas por
+									jugar.
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div
+								class="carrouselBanner"
+								style="background-image: url('imagenes/slider/03.png')"
+								title="Semifinales copa argentina"
+							></div>
+
+							<div class="carousel-caption">
+								<h3 class="fw-bold">Nuevos beneficios para socios del club</h3>
+								<p class="fs-5 d-none d-lg-block">
+									Este viernes 6 de enero se llevó a cabo la inauguración del
+									nuevo Gimnasio del club. ¡Vení a conocerlo!
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#miSlider"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Anterior</span>
+					</button>
+
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#miSlider"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Próximo</span>
+					</button>
+
+					<div class="carousel-indicators">
+						<button
+							type="button"
+							data-bs-target="#miSlider"
+							data-bs-slide-to="0"
+							class="active"
+							aria-current="true"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#miSlider"
+							data-bs-slide-to="1"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#miSlider"
+							data-bs-slide-to="2"
+						></button>
+					</div>
+				</div>
+			</section>
+
+			<section class="container" id="noticias">
+				<h2 class="d-none">Noticias</h2>
+
+				<div class="row bg-whitesmoke">
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden">
+						<img src="imagenes/noticias/01.png" alt="Noticias 01" />
+						<div class="px-2 py-4 bg-white">
+							<h3 class="fs-5 fw-semibold pb-2">
+								¡Quinta victoria consecutiva!
+							</h3>
+							<div class="d-flex gap-2">
+								<p class="tags">Handball</p>
+								<p class="tags">Mayores</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden">
+						<img src="imagenes/noticias/02.png" alt="Noticias 01" />
+						<div class="px-2 py-4 bg-white flex-grow-1">
+							<h3 class="fs-5 fw-semibold pb-2">
+								Lo importante es divertirse.
+							</h3>
+							<div class="d-flex gap-2">
+								<p class="tags">Futsal</p>
+								<p class="tags">Infantiles</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden">
+						<img src="imagenes/noticias/03.png" alt="Noticias 02" />
+						<div class="px-2 py-4 bg-white">
+							<h3 class="fs-5 fw-semibold pb-2">
+								Se viene la muestra de fin de año!
+							</h3>
+							<div class="d-flex gap-2">
+								<p class="tags">Patín</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden">
+						<img src="imagenes/noticias/04.png" alt="Noticias 03" />
+						<div class="px-2 py-4 bg-white">
+							<h3 class="fs-5 fw-semibold pb-2">Nuevo reglamento futsal AFA</h3>
+							<div class="d-flex gap-2">
+								<p class="tags">Futsal</p>
+								<p class="tags">Primera</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden">
+						<img src="imagenes/noticias/05.png" alt="Noticias 04" />
+						<div class="px-2 py-4 bg-white">
+							<h3 class="fs-5 fw-semibold pb-2">¡Acá está el campeón!</h3>
+							<div class="d-flex gap-2">
+								<p class="tags">Futsal</p>
+								<p class="tags">Reserva</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden">
+						<img src="imagenes/noticias/06.png" alt="Noticias 05" />
+						<div class="px-2 py-4 bg-white">
+							<h3 class="fs-5 fw-semibold pb-2">Vengo del barrio de Boedo</h3>
+							<div class="d-flex gap-2">
+								<p class="tags">Futsal</p>
+								<p class="tags">Infantiles</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="container d-flex flex-column mt-4" id="club">
+				<img src="/imagenes/slider/03.png" alt="El club" class="contain" />
+				<div class="bg-white p-4 d-flex flex-column gap-4">
+					<h2 class="fs-3">Club social y deportivo Estrella de Boedo</h2>
+					<p>
+						El club social y deportivo <strong>Estrella de Boedo</strong> es una
+						entidad deportiva argentina. Con sede en Constitución 4151 barrio de
+						Boedo, Buenos Aires. Fue Fundado el 8 de Abril de 1996. El futsal
+						masculino y handball femenino son sus disciplinas más destacadas
+						compitiendo a nivel profesional. También en el club se practica
+						basquet, patín artístico, voley y gimnasia rítmica.
+					</p>
+					<p>
+						Estrella de Boedo obtuvo 9 títulos, en el medio local 5 son
+						campeonatos de <strong>Primera División de AFA futsal</strong>, 2
+						copas nacionales y en el medio internacional ha alzado la Copa
+						Libertadores de América. Actualente el club cuenta con 1.400 socios
+						activos, además de ser el equipo con más simpatizantes del barrio.
+					</p>
+					<img
+						src="/imagenes/escudos/fileteado.png"
+						alt="Fileteado"
+						class="w-25 mx-auto"
+					/>
+				</div>
+			</section>
+			<section class="container" id="tienda">
+				<h2 class="d-none">Tienda</h2>
+
+				<div class="row bg-whitesmoke">
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden relative">
+						<a href="producto.html">
+							<img
+								src="imagenes/casacas/1.png"
+								alt="Camiseta titular "
+								class="p-4 bg-white"
+							/>
+						</a>
+
+						<div class="px-2 py-4 bg-white border-top">
+							<p class="fs-6"><del>$20.000</del></p>
+							<div class="d-flex gap-2 align-items-baseline">
+								<p class="fs-5 fw-semibold">$16.000</p>
+								<p class="fs-6 text-success">20% OFF</p>
+							</div>
+							<p class="fs-6 text-success fw-semibold">Envío gratis</p>
+							<p class="pt-2">Camiseta titular Futsal</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden relative">
+						<a href="producto.html">
+							<img
+								src="imagenes/casacas/2.png"
+								alt="Camiseta titular "
+								class="p-4 bg-white"
+							/>
+						</a>
+						<div class="px-2 py-4 bg-white border-top h">
+							<p class="fs-6"><del>$20.000</del></p>
+							<div class="d-flex gap-2 align-items-baseline">
+								<p class="fs-5 fw-semibold">$18.000</p>
+								<p class="fs-6 text-success">10% OFF</p>
+							</div>
+							<p class="fs-6 text-success fw-semibold">Envío gratis</p>
+							<p class="pt-2">Camiseta alternativa Futsal</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden relative">
+						<a href="producto.html">
+							<img
+								src="imagenes/casacas/3.png"
+								alt="Camiseta titular "
+								class="p-4 bg-white"
+							/>
+						</a>
+						<div class="px-2 py-4 bg-white border-top">
+							<p class="fs-6"><del>$20.000</del></p>
+							<div class="d-flex gap-2 align-items-baseline">
+								<p class="fs-5 fw-semibold">$19.000</p>
+								<p class="fs-6 text-success">5% OFF</p>
+							</div>
+							<p class="fs-6 text-success fw-semibold">Envío gratis</p>
+							<p class="pt-2">Camiseta suplente Futsal</p>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden relative">
+						<a href="producto.html">
+							<img
+								src="imagenes/casacas/4.png"
+								alt="Camiseta titular "
+								class="p-4 bg-white"
+							/>
+						</a>
+						<div class="px-2 py-4 bg-white border-top h">
+							<p class="fs-6"><del>$20.000</del></p>
+							<div class="d-flex gap-2 align-items-baseline">
+								<p class="fs-5 fw-semibold">$18.000</p>
+								<p class="fs-6 text-success">10% OFF</p>
+							</div>
+							<p class="fs-6 text-success fw-semibold">Envío gratis</p>
+							<p class="pt-2">Camiseta Entrenamiento Futsal</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden relative">
+						<a href="producto.html">
+							<img
+								src="imagenes/casacas/5.png"
+								alt="Camiseta titular "
+								class="p-4 bg-white"
+							/>
+						</a>
+						<div class="px-2 py-4 bg-white border-top">
+							<p class="fs-6"><del>$20.000</del></p>
+							<div class="d-flex gap-2 align-items-baseline">
+								<p class="fs-5 fw-semibold">$19.000</p>
+								<p class="fs-6 text-success">5% OFF</p>
+							</div>
+							<p class="fs-6 text-success fw-semibold">Envío gratis</p>
+							<p class="pt-2">Camiseta Entrenamiento Futsal</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 mt-4 overflow-hidden relative">
+						<a href="producto.html">
+							<img
+								src="imagenes/casacas/6.png"
+								alt="Camiseta titular "
+								class="p-4 bg-white"
+							/>
+						</a>
+						<div class="px-2 py-4 bg-white border-top">
+							<p class="fs-6"><del>$20.000</del></p>
+							<div class="d-flex gap-2 align-items-baseline">
+								<p class="fs-5 fw-semibold">$16.000</p>
+								<p class="fs-6 text-success">20% OFF</p>
+							</div>
+							<p class="fs-6 text-success fw-semibold">Envío gratis</p>
+							<p class="pt-2">Camiseta Arquero Futsal</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div
+				class="d-flex justify-content-center p-3 mt-4"
+				style="background-image: url('imagenes/background/form2.png')"
+			>
+				<img src="/imagenes/background/fifa.png" alt="Fifa 23" id="fifa" />
+				<button class="comprar">Comprar ahora</button>
+			</div>
+			<section class="container" id="resultados">
+				<h2 class="text-center fw-semibold p-4">Resultados Futsal</h2>
+				<div class="accordion accordion-flush" id="miAcordion">
+					<div class="accordion-item">
+						<div class="accordion-header" id="headingSix">
+							<button
+								class="accordion-button collapsed bg-azul text-white"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#fecha6"
+							>
+								<p class="fw-semibold">Fecha 6:</p>
+								<div class="d-flex align-items-center mx-2">
+									<p class="d-none d-md-block">Estrella</p>
+									<img
+										src="/imagenes/escudos/estrella.png"
+										alt="Escudo Estrella"
+									/>
+									<p class="px-2">3 - 0</p>
+									<img
+										src="/imagenes/escudos/independiente.png"
+										alt="Escudo independiente"
+									/>
+									<p class="d-none d-md-block">Independiente</p>
+								</div>
+							</button>
+						</div>
+						<div
+							id="fecha6"
+							class="accordion-collapse collapse"
+							data-bs-parent="#miAcordion"
+						>
+							<div
+								class="accordion-body bg-azul text-white d-flex flex-column align-items-center"
+							>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>15</p>
+									<p>Remates</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>5</p>
+									<p>Remates al arco</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>46%</p>
+									<p>Posesión</p>
+									<p>54%</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>299</p>
+									<p>Pases</p>
+									<p>361</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>6</p>
+									<p>Faltas</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>1</p>
+									<p>Tarjetas amarillas</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>0</p>
+									<p>Tarjetas rojas</p>
+									<p>1</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-header" id="headingFive">
+							<button
+								class="accordion-button collapsed bg-azul text-white"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#fecha5"
+							>
+								<p class="fw-semibold">Fecha 5:</p>
+								<div class="d-flex align-items-center mx-2">
+									<p class="d-none d-md-block">Vélez</p>
+									<img src="/imagenes/escudos/velez.png" alt="Escudo velez" />
+									<p class="px-2">3 - 0</p>
+									<img
+										src="/imagenes/escudos/estrella.png"
+										alt="Escudo Estrella"
+									/>
+									<p class="d-none d-md-block">Estrella</p>
+								</div>
+							</button>
+						</div>
+						<div
+							id="fecha5"
+							class="accordion-collapse collapse"
+							data-bs-parent="#miAcordion"
+						>
+							<div
+								class="accordion-body bg-azul text-white d-flex flex-column align-items-center"
+							>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>15</p>
+									<p>Remates</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>5</p>
+									<p>Remates al arco</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>46%</p>
+									<p>Posesión</p>
+									<p>54%</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>299</p>
+									<p>Pases</p>
+									<p>361</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>6</p>
+									<p>Faltas</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>1</p>
+									<p>Tarjetas amarillas</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>0</p>
+									<p>Tarjetas rojas</p>
+									<p>1</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-header" id="headingFour">
+							<button
+								class="accordion-button collapsed bg-azul text-white"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#fecha4"
+							>
+								<p class="fw-semibold">Fecha 4:</p>
+								<div class="d-flex align-items-center mx-2">
+									<p class="d-none d-md-block">Estrella</p>
+									<img
+										src="/imagenes/escudos/estrella.png"
+										alt="Escudo Estrella"
+									/>
+									<p class="px-2">2 - 2</p>
+									<img src="/imagenes/escudos/boca.png" alt="Escudo boca" />
+									<p class="d-none d-md-block">Boca Juniors</p>
+								</div>
+							</button>
+						</div>
+						<div
+							id="fecha4"
+							class="accordion-collapse collapse"
+							data-bs-parent="#miAcordion"
+						>
+							<div
+								class="accordion-body bg-azul text-white d-flex flex-column align-items-center"
+							>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>15</p>
+									<p>Remates</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>5</p>
+									<p>Remates al arco</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>46%</p>
+									<p>Posesión</p>
+									<p>54%</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>299</p>
+									<p>Pases</p>
+									<p>361</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>6</p>
+									<p>Faltas</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>1</p>
+									<p>Tarjetas amarillas</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>0</p>
+									<p>Tarjetas rojas</p>
+									<p>1</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-header" id="headingThree">
+							<button
+								class="accordion-button collapsed bg-azul text-white"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#fecha3"
+							>
+								<p class="fw-semibold">Fecha 3:</p>
+								<div class="d-flex align-items-center mx-2">
+									<p class="d-none d-md-block">San Lorenzo</p>
+									<img
+										src="/imagenes/escudos/sanlorenzo.png"
+										alt="Escudo sanlorenzo"
+									/>
+									<p class="px-2">1 - 4</p>
+									<img
+										src="/imagenes/escudos/estrella.png"
+										alt="Escudo Estrella"
+									/>
+									<p class="d-none d-md-block">Estrella</p>
+								</div>
+							</button>
+						</div>
+						<div
+							id="fecha3"
+							class="accordion-collapse collapse"
+							data-bs-parent="#miAcordion"
+						>
+							<div
+								class="accordion-body bg-azul text-white d-flex flex-column align-items-center"
+							>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>15</p>
+									<p>Remates</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>5</p>
+									<p>Remates al arco</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>46%</p>
+									<p>Posesión</p>
+									<p>54%</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>299</p>
+									<p>Pases</p>
+									<p>361</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>6</p>
+									<p>Faltas</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>1</p>
+									<p>Tarjetas amarillas</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>0</p>
+									<p>Tarjetas rojas</p>
+									<p>1</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-header" id="headingTwo">
+							<button
+								class="accordion-button collapsed bg-azul text-white"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#fecha2"
+							>
+								<p class="fw-semibold">Fecha 2:</p>
+								<div class="d-flex align-items-center mx-2">
+									<p class="d-none d-md-block">Estrella</p>
+									<img
+										src="/imagenes/escudos/estrella.png"
+										alt="Escudo Estrella"
+									/>
+									<p class="px-2">6 - 3</p>
+									<img src="/imagenes/escudos/river.png" alt="Escudo river" />
+									<p class="d-none d-md-block">River Plate</p>
+								</div>
+							</button>
+						</div>
+						<div
+							id="fecha2"
+							class="accordion-collapse collapse"
+							data-bs-parent="#miAcordion"
+						>
+							<div
+								class="accordion-body bg-azul text-white d-flex flex-column align-items-center"
+							>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>15</p>
+									<p>Remates</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>5</p>
+									<p>Remates al arco</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>46%</p>
+									<p>Posesión</p>
+									<p>54%</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>299</p>
+									<p>Pases</p>
+									<p>361</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>6</p>
+									<p>Faltas</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>1</p>
+									<p>Tarjetas amarillas</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>0</p>
+									<p>Tarjetas rojas</p>
+									<p>1</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-header" id="headingOne">
+							<button
+								class="accordion-button collapsed bg-azul text-white"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#fecha1"
+							>
+								<p class="fw-semibold">Fecha 1:</p>
+								<div class="d-flex align-items-center mx-2">
+									<p class="d-none d-md-block">Racing</p>
+									<img src="/imagenes/escudos/racing.png" alt="Escudo racing" />
+									<p class="px-2">0 - 1</p>
+									<img
+										src="/imagenes/escudos/estrella.png"
+										alt="Escudo Estrella"
+									/>
+									<p class="d-none d-md-block">Estrella</p>
+								</div>
+							</button>
+						</div>
+						<div
+							id="fecha1"
+							class="accordion-collapse collapse"
+							data-bs-parent="#miAcordion"
+						>
+							<div
+								class="accordion-body bg-azul text-white d-flex flex-column align-items-center"
+							>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>15</p>
+									<p>Remates</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>5</p>
+									<p>Remates al arco</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>46%</p>
+									<p>Posesión</p>
+									<p>54%</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>299</p>
+									<p>Pases</p>
+									<p>361</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>6</p>
+									<p>Faltas</p>
+									<p>5</p>
+								</div>
+								<div class="px-2 d-flex justify-content-between w-100">
+									<p>1</p>
+									<p>Tarjetas amarillas</p>
+									<p>1</p>
+								</div>
+								<div
+									class="px-2 d-flex justify-content-between bg-azuldark w-100"
+								>
+									<p>0</p>
+									<p>Tarjetas rojas</p>
+									<p>1</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="container" id="formulario">
+				<div class="row mt-4 bg-rojo">
+					<div
+						class="col-12 col-lg-5 bg-white d-flex flex-column text-center p-4 justify-content-center"
+					>
+						<h2 class="text-center fw-semibold text-azul fs-4 md-fs-2">
+							<span class="fw-bold text-rojo">¿</span>Querés ponerte la 10<span
+								class="fw-bold text-rojo"
+								>?</span
+							>
+						</h2>
+						<img
+							src="/imagenes/background/camisetaBorder.png"
+							alt="Camiseta 10"
+							id="casaca"
+						/>
+						<p class="fw-bold text-azul fs-3">
+							<span class="fw-bold text-rojo">¡</span>VENÍ A PROBARTE<span
+								class="fw-bold text-rojo"
+								>!</span
+							>
+						</p>
+					</div>
+					<form
+						class="col-12 col-lg-7 d-flex flex-column text-white bg-azul p-4"
+					>
+						<img
+							src="/imagenes/escudos/fileteado.png"
+							alt="Escudo estrella"
+							class="mx-auto w-50 mb-4"
+						/>
+
+						<div class="mb-3">
+							<label for="exampleInputName" class="form-label"
+								>Nombre y Apellido</label
+							>
+							<input type="text" class="form-control" id="exampleInputName" />
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Email</label>
+							<input
+								type="email"
+								class="form-control"
+								id="exampleInputEmail1"
+							/>
+						</div>
+						<div class="mb-3" id="picker">
+							<label for="exampleInputDate" class="form-label"
+								>Fecha de nacimiento</label
+							>
+							<input type="date" class="form-control" id="exampleInputDate" />
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputDocumento1" class="form-label"
+								>Número de documento</label
+							>
+							<input
+								type="text"
+								class="form-control"
+								id="exampleInputDocumento1"
+							/>
+						</div>
+						<div class="form-group mb-3">
+							<label for="exampleFormControlSelect1" class="mb-1"
+								>Deporte</label
+							>
+							<select class="form-control" id="exampleFormControlSelect1">
+								<option>Futsal</option>
+								<option>Handball</option>
+								<option>Basquet</option>
+								<option>Patin</option>
+								<option>Gimnasio</option>
+							</select>
+						</div>
+						<div class="form-group mb-3">
+							<label for="exampleFormControlTextarea1" class="mb-1"
+								>¿Qué es lo que más te gusta del club?</label
+							>
+							<textarea
+								class="form-control"
+								id="exampleFormControlTextarea1"
+								rows="3"
+							></textarea>
+						</div>
+						<div class="mb-3 form-check">
+							<input
+								type="checkbox"
+								class="form-check-input"
+								id="exampleCheck1"
+							/>
+							<label class="form-check-label" for="exampleCheck1"
+								>He leído y acepto los
+								<span class="fw-semibold"
+									><u>terminos y condiciones</u></span
+								></label
+							>
+						</div>
+						<button type="submit" class="btn btn-primary mb-3">
+							Confirmar
+						</button>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="bg-dark mt-4 overflow-hidden">
+			<div class="bg-azuldark py-4">
+				<h2 class="text-white text-center fw-semibold">Sponsors</h2>
+				<div class="row">
+					<div class="col-6 col-md-3 d-flex align-items-center">
+						<img
+							src="/imagenes/sponsors/01.png"
+							alt="Logo Quilmes"
+							class="w-50 mx-auto"
+						/>
+					</div>
+					<div class="col-6 col-md-3 d-flex align-items-center">
+						<img
+							src="/imagenes/sponsors/02.png"
+							alt="Logo Nike"
+							class="w-50 mx-auto"
+						/>
+					</div>
+					<div class="col-6 col-md-3 d-flex align-items-center">
+						<img
+							src="/imagenes/sponsors/03.png"
+							alt="Logo Gatorade"
+							class="w-50 mx-auto"
+						/>
+					</div>
+					<div class="col-6 col-md-3 d-flex align-items-center">
+						<img
+							src="/imagenes/sponsors/04.png"
+							alt="Logo Bareto"
+							class="w-50 mx-auto"
+						/>
+					</div>
+				</div>
+			</div>
+			<div
+				class="container p-3 text-center text-light fw-semibold d-flex flex-column justify-content-between align-items-center flex-md-row gap-3"
+			>
+				<a href="https://ignaciokang.github.io/CV/">
+					<img
+						src="/imagenes/background/fotoPerfil.png"
+						alt="Foto perfil"
+						id="fotoPerfil"
+					/>
+				</a>
+				<div>
+					<p class="fs-5">Ignacio Kang</p>
+					<p>Interacción con dispositivos móviles</p>
+					<p>DWN2CV | Da Vinci</p>
+				</div>
+				<img
+					src="/imagenes/sponsors/daVinci.png"
+					alt="Logo Da Vinci"
+					id="daVinci"
+				/>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
